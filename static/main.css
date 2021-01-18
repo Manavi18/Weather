@@ -1,0 +1,75 @@
+body {
+    font-style: italic;
+    color: black;
+    background-image: url("bg.jpg");
+    background-size: 100% 100vh;
+  }
+  
+
+  .title {
+    padding: 1px;
+    background-color:rgb(255, 255, 255, 0.89);
+    color: rgba(0,0,0);
+    text-align: center;
+    align-self: center;
+    border-radius: 6px;
+    width: 99%;
+    height: 15vh;
+  }
+
+  .input {
+    background-color: #E6E6FA;
+    height: 4vh;
+    width: 45vw;
+    align-self: center;
+    margin-top: 15vh;
+    margin-left: 25vw;
+    font-style: italic;
+    font-size: 20px;
+    text-size-adjust: 100px;
+    border: 5px solid black;
+    border-width: thin;
+  } 
+
+  ::placeholder{
+    color: black;
+    font-size: 20px;
+  }
+
+  h1.weathercard{
+    text-align: center;
+    color: black;
+  }
+
+  h2.weathercard{
+    text-align: center;
+    color: black;
+  }
+
+  h3.weathercard{
+    text-align: center;
+    color: black;
+  }
+
+  .submit{
+    border: black;
+    padding: 7px;
+    align-self: center;
+    font-style: italic;
+    font-size: 20px;
+    height: 5vh;
+  }
+
+  .weathercard {
+    padding: 5px;
+    background-color:rgba(255, 255, 255, 0.87);
+    color: rgba(0,0,0);
+    text-align: center;
+    align-self: center;
+    margin-top: 15vh;
+    margin-left: 25%;
+    border-radius: 30px;
+    width: 50%;
+    height: 35vh;
+  }
+

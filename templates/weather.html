@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}">
+    </head>
+    <body>
+        <div class="title">
+            <h1>How is the Weather today?</h1>
+        </div>
+        <form method="POST">
+            <input class="input" name="city" type="text" placeholder="Enter a city">
+            <input class="submit" type="submit">
+        </form>
+
+        <div class="weathercard">
+            <img src="http://openweathermap.org/img/wn/{{weather.icon}}@2x.png" >
+            <h1>{{ weather.city }}</h1>
+            <h2>{{ weather.temperature }} °F</h2>
+            <h3>{{ weather.description }}</h3> 
+        </div>
+    </body>
+</html>
