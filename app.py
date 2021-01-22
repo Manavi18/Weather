@@ -19,7 +19,7 @@ def home():
 
 
     weather = {
-        'city': c,
+        'city': c.capitalize(),
         'temperature': r['main']['temp'],
         'description':  r['weather'][0]['description'],
         'icon': r['weather'][0]['icon'],
