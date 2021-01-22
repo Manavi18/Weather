@@ -14,7 +14,7 @@ body {
     align-self: center;
     border-radius: 6px;
     width: 99%;
-    height: 15vh;
+    height: 15%;
   }
 
   .input {
@@ -70,6 +70,6 @@ body {
     margin-left: 25%;
     border-radius: 30px;
     width: 50%;
-    height: 35vh;
+    height: 35%;
   }
 
