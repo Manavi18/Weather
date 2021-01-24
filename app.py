@@ -12,7 +12,7 @@ def home():
     else:
         c = 'Mumbai'
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?units=imperial&q={}&appid=715ae271aba5e6fb65473723fa58e745'
+    url = 'http://api.openweathermap.org/data/2.5/weather?units=metric&q={}&appid=715ae271aba5e6fb65473723fa58e745'
 
     r = requests.get(url.format(c)).json()
     print(r)
